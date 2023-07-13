@@ -10,10 +10,10 @@ If you want to send me a contribution of any amount so that I can continue devel
 
 ```
 composer require mateus/module-adminpreviewproduct
-(alternative) composer require mateus/module-adminpreviewproduct:dev-main
+(alternative) composer require mateus/module-adminpreviewproduct:dev-master
 php bin/magento module:enable Mateus_AdminPreviewProduct
 php bin/magento setup:upgrade
 ```
 
 ## Screenshot
-![ScreenShot](https://github.com/mateussantin/magento2-admin-preview-product/blob/main/screenshot/preview.png)
+![ScreenShot](https://github.com/mateussantin/magento2-admin-preview-product/blob/master/screenshot/preview.png)
