@@ -2,7 +2,6 @@
     "name": "mateus/module-adminpreviewproduct",
     "description": "Inserts an action button on the product view inside admin that allows you to direct the current product to the frontend.",
     "type": "magento2-module",
-    "version": "1.0.0",
     "license": "proprietary",
     "keywords": [
         "mateussantin",
@@ -24,9 +23,7 @@
         "issues": "https://github.com/mateussantin/magento2-admin-preview-product/issues/"
     },
     "require": {
-        "php": ">=7.0",
-        "magento/framework": "*",
-        "magento/module-backend": "*"
+        "php": ">=7.0"
     },
     "autoload": {
         "psr-4": {
