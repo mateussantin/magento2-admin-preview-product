@@ -17,3 +17,4 @@ php bin/magento setup:upgrade
 
 ## Screenshot
 ![ScreenShot](https://github.com/mateussantin/magento2-admin-preview-product/blob/master/screenshot/preview.png)
+![ScreenShot](https://github.com/mateussantin/magento2-admin-preview-product/blob/master/screenshot/preview-list.png)
