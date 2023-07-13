@@ -11,6 +11,7 @@
         "Magento Admin Product",
         "Magento Admin Product View"
     ],
+    "homepage": "https://github.com/mateussantin/magento2-admin-preview-product",
     "authors": [
         {
             "name": "Mateus Santin",
@@ -18,10 +19,14 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/mateussantin/magento2-admin-preview-product",
+    "support": {
+        "email": "mateussantin.jr@gmail.com",
+        "issues": "https://github.com/mateussantin/magento2-admin-preview-product/issues/"
+    },
     "require": {
+        "php": ">=7.0",
         "magento/framework": "*",
-        "php": ">=7.0"
+        "magento/module-backend": "*"
     },
     "autoload": {
         "psr-4": {
