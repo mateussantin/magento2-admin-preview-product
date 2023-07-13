@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Copyright © Mateus. All rights reserved.
+* mateussantin.jr@gmail.com
+*/
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="page.actions.toolbar">
+            <block class="Mateus\AdminPreviewProduct\Block\Adminhtml\ViewButton" as="view_product_button"/>
+        </referenceBlock>
+    </body>
+</page>

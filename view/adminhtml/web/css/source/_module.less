@@ -1,0 +1,20 @@
+
+// Variables
+@btn_preview_bg: #007bdb;
+@btn_preview_color: #fff;
+
+// Btn
+.page-actions {
+    .page-actions-buttons {
+        .btn-preview-product {
+            background-color: @btn_preview_bg;
+            color: @btn_preview_color;
+            border: 1px solid @btn_preview_bg;
+
+            &:hover {
+                background-color: darken(@btn_preview_bg, 10%);
+                color: @btn_preview_color;
+            }
+        }
+    }
+}

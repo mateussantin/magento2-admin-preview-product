@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Copyright © Mateus. All rights reserved.
+* mateussantin.jr@gmail.com
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Ui\Component\Listing\Columns\ProductActions">
+        <plugin name="product-preview" type="Mateus\AdminPreviewProduct\Plugin\Backend\Catalog\Grid\ProductActions" sortOrder="10" />
+    </type>
+    <type name="Mateus\AdminPreviewProduct\Plugin\Backend\Catalog\Grid\ProductActions">
+        <arguments>
+            <argument name="frontendUrlBuilder" xsi:type="object">Magento\Framework\Url</argument>
+        </arguments>
+    </type>
+</config>
